@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+</head>
+<body>
+     <nav>
+        <a href="/index.html">Home</a>
+        <a href="/pages/semantica.html">Tags Semanticas</a>
+        <a href="/pages/listadetarefas.html">Lista de Tarefas</a>
+        <a href="/pages/TableBrasileirao.html">Tabela Brasileirão</a>
+        <a href="/pages/faleConosco.html">Fale conosco</a>
+        </nav>
+        <hr> 
+
+        <main>
+            <h2>Fale Conosco</h2>
+            <form> 
+                <h3>Dados Pessoais</h3>
+                <div>
+                    <label for="nome">Nome: </label><input name="nome" type="text" placeholder="Digite seu Nome">
+                   <label for="sobrenome">Sobrenome: </label><input name="sobrenome" type="text" placeholder="Digite seu Sobrenome">
+                </div>
+                
+                <div>
+                    <label for="cpf">CPF: </label> <input type="number" name="Cpf" id="" placeholder="Digite seu CPF">
+                    <label for="rg">RG: </label><input type="number" name="Rg" id="" placeholder="Digite seu RG">
+                </div>
+
+                <div>
+                    <label for="genero">Gênero</label>
+                    <input type="radio" name="genero" id=""> Masculino
+                    <input type="radio" name="genero" id=""> Femenino
+                    <input type="radio" name="genero" id=""> Outros <input type="text" disabled placeholder="Digite seu Gênero">
+                </div>
+                <div>
+                    <label for="nacimento">Data de Nascimento: </label><input type="date" name="" id="">
+                </div>
+                <div>
+                    <label for="nacionalidade">Nacionalidade:</label>
+                    <select name="nacionalidade" id="">
+                        <option value="" selected></option>
+                        <option value="BR">Brasil</option>
+                        <option value="IQ">Iraque</option>
+                        <option value="VZ">Venesuela</option>
+                        <option value="AR">Cuba</option>
+                        <option value="">Corea do Norte</option>
+                    </select>
+                    <label for="naturalidade">Naturalidade:</label>
+                    <select name="naturalidade" id="" hidden>
+                        <option value="">Amazonas</option>
+                        <option value="">Paraná</option>
+                        <option value="">Acre</option>
+                        <option value="">Piauí</option>
+                        <option value="">Roraima</option>
+                        <option value="">Rondônia</option>
+                        <option value="">Mato Grosso</option>
+                    </select>
+                </div>
+                <h3>Dados Culturais</h3>
+                <div>
+                    <label for="musica">Gostos Musicais: </label>
+                    <input type="checkbox" name="musica" id=""> MPB
+                    <input type="checkbox" name="musica" id=""> Rock
+                    <input type="checkbox" name="musica" id=""> Jazz
+                    <input type="checkbox" name="musica" id=""> Pop
+                    <input type="checkbox" name="musica" id="" disabled> Funk
+                </div>
+                <h3>Login</h3>
+                <div>
+                    <label for="email">E-mail: </label><input type="email" name="email" id="">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="" placeholder="Digite a Senha">
+                    <input type="password" name="senha" id="" placeholder="Confirme a Senha">
+                    <button type="button" onclick="">Ver</button>
+                </div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+                
+            </form>
+        </main>
+    
+</body>
+</html>
